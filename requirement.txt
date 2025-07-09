@@ -1,6 +1,0 @@
-## 📦 Installation
-
-Before running the notebook, make sure you have the required libraries installed:
-
-```bash
-pip install pandas numpy matplotlib scikit-learn

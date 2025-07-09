@@ -1,27 +1,64 @@
-# PROJECT SSUGG
+# 🎵 Song Suggestion System using KNN
 
-This is a Jupyter Notebook-based project.
+This project is a simple **music recommendation system** built using the **K-Nearest Neighbors (KNN)** algorithm. It takes a song name as input and suggests similar songs based on their audio features.
 
-## 📘 File Included
-
-- `Untitled3.ipynb`: The main notebook containing code and outputs
-
-## 📌 Description
-
-This project demonstrates:
-- [✓] Python coding in Jupyter Notebook
-- [✓] Problem solving / visualization / logic (custom content based on your project)
-
-## 💻 How to Run
-
-1. Install Jupyter Notebook
-2. Open terminal:
-3. Open `songsuggestion.ipynb` and run all cells.
+The project uses Python and Jupyter Notebook, and is ideal for those learning about basic machine learning, recommendation systems, and data preprocessing.
 
 ---
-4.open requirement.txt file and check for libraries and Installation process.
-5.run this command on bash im using linux mint - "pip install -r requirements.txt".
-6. Open Jupyter notebook you can use freely now without an error!;
- 
 
-Made with ❤️ by Guna Rajan
+## 🧠 Features
+
+- 📊 Uses real-world music metadata
+- 🤖 Implements KNN (using `NearestNeighbors`) from scikit-learn
+- 🧹 Preprocessing with Pandas and NumPy
+- 🧪 Built and tested in Jupyter Notebook
+
+---
+
+## 📁 Files Included
+
+- `songsuggestion.ipynb` — Main notebook for data processing, modeling, and recommendation
+- `requirements.txt` *(optional)* — To install dependencies easily
+
+---
+
+## 📦 Installation
+
+> Make sure Python (preferably 3.7+) is installed.
+
+### 🔹 Step 1: Install Required Libraries
+
+Run the following command:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn
+
+                 or
+ 
+ If you are using requirements.txt, you can run: pip install -r requirements.txt
+
+🔹 Step 2: Launch Jupyter Notebook
+
+    '''bash
+    jupyter notebook
+
+Then open songsuggestion.ipynb from your browser.
+🚀 How to Use
+
+    Run all the cells in the notebook.
+
+    Call the recommend_songs(track_name, artist_name, top_n) function with:
+
+        track_name: Name of the song
+
+        artist_name: (Optional) Artist name to be more specific
+
+        top_n: Number of suggestions
+
+🔍 Example:
+
+recommend_songs("Shape of You", "Ed Sheeran", top=5)
+
+
+
+Thanks for reading!❤️ by gunarajan
