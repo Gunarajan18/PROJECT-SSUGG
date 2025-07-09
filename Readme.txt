@@ -16,3 +16,8 @@ This project demonstrates:
 
 1. Install Jupyter Notebook
 2. Open terminal:
+3. Open `Untitled3.ipynb` and run all cells.
+
+---
+
+Made with ❤️ by Guna Rajan
