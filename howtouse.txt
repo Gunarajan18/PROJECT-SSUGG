@@ -1,0 +1,28 @@
+🔧 Tech Stack
+🚀 How to Use
+
+    Run all the cells in the notebook.
+
+    Call the recommend_songs(track_name, artist_name, top_n) function with:
+
+        track_name: Name of the song
+
+        artist_name: (Optional) Artist name to be more specific
+
+        top_n: Number of suggestions
+
+    Python
+
+    Jupyter Notebook
+
+    Scikit-learn
+
+    Pandas
+
+    NumPy
+
+    Matplotlib
+     
+🔍 Example:
+
+recommend_songs("Shape of You", "Ed Sheeran", top=5)
