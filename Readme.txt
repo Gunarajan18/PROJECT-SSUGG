@@ -21,6 +21,14 @@ The project uses Python and Jupyter Notebook, and is ideal for those learning ab
 - `requirements.txt` *(optional)* — To install dependencies easily
 
 ---
+## 📁 Dataset Source
+
+This project uses data from Kaggle:
+
+🎵 [Spotify Songs Dataset - Kaggle](https://www.kaggle.com/datasets/zaheenhamidani/ultimate-spotify-tracks-db)
+
+All credit goes to the original dataset creator.
+
 
 ## 📦 Installation
 
@@ -59,6 +67,12 @@ Then open songsuggestion.ipynb from your browser.
 
 recommend_songs("Shape of You", "Ed Sheeran", top=5)
 
+ Dataset copywrites goes to kaggle!
 
 
-Thanks for reading!❤️ by gunarajan
+
+
+
+🙌 Author
+
+Made with 💙 by Guna Rajan
